@@ -6,29 +6,29 @@ Website Project Manager là một hệ thống quản lý đồ án dành cho c�
 
 ---
 
-Yêu Cầu Bài Toán
+#Yêu Cầu Bài Toán
 
-1. Quản lý tài khoản
+##1. Quản lý tài khoản
 
 Tạo, sửa, xóa tài khoản.
 Phân quyền người dùng theo vai trò: Admin, Teacher, Student.
 Lưu thông tin chi tiết theo từng loại tài khoản (thông tin sinh viên, giảng viên).
-2. Quản lý đồ án
+##2. Quản lý đồ án
 Lưu trữ thông tin đồ án: tên, loại (cơ sở ngành/chuyên ngành), MSSV, giảng viên hướng dẫn, điểm tổng, trạng thái.
 Tự động xếp loại (Excellent, Good, Fair, Poor) và trạng thái (Đậu/Rớt) dựa trên điểm tổng.
-3. Quản lý lớp học
+##3. Quản lý lớp học
 Thêm, sửa, xóa thông tin lớp học.
 Kết nối lớp học với thông tin sinh viên.
-4. Thống kê
+##4. Thống kê
 Biểu đồ thống kê loại đồ án (Cơ sở ngành/Chuyên ngành).
 Biểu đồ xếp loại đồ án (Excellent, Good, Fair, Poor).
 Báo cáo số lượng tài khoản, lớp học, đồ án, giảng viên.
-5. Tìm kiếm và tra cứu
+##5. Tìm kiếm và tra cứu
 Tìm kiếm đồ án theo MSSV, tên đồ án, lớp học hoặc trạng thái.
 Xem chi tiết thông tin đồ án, sinh viên thực hiện, giảng viên hướng dẫn.
 ---
 
-Hướng Dẫn Cài Đặt
+#Hướng Dẫn Cài Đặt
 
 Yêu Cầu Hệ Thống
 
