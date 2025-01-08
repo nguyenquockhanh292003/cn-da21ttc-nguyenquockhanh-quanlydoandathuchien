@@ -13,19 +13,24 @@ Website Project Manager là một hệ thống quản lý đồ án dành cho c�
 Tạo, sửa, xóa tài khoản.
 Phân quyền người dùng theo vai trò: Admin, Teacher, Student.
 Lưu thông tin chi tiết theo từng loại tài khoản (thông tin sinh viên, giảng viên).
+
 ##2. Quản lý đồ án
 Lưu trữ thông tin đồ án: tên, loại (cơ sở ngành/chuyên ngành), MSSV, giảng viên hướng dẫn, điểm tổng, trạng thái.
 Tự động xếp loại (Excellent, Good, Fair, Poor) và trạng thái (Đậu/Rớt) dựa trên điểm tổng.
+
 ##3. Quản lý lớp học
 Thêm, sửa, xóa thông tin lớp học.
 Kết nối lớp học với thông tin sinh viên.
+
 ##4. Thống kê
 Biểu đồ thống kê loại đồ án (Cơ sở ngành/Chuyên ngành).
 Biểu đồ xếp loại đồ án (Excellent, Good, Fair, Poor).
 Báo cáo số lượng tài khoản, lớp học, đồ án, giảng viên.
+
 ##5. Tìm kiếm và tra cứu
 Tìm kiếm đồ án theo MSSV, tên đồ án, lớp học hoặc trạng thái.
 Xem chi tiết thông tin đồ án, sinh viên thực hiện, giảng viên hướng dẫn.
+
 ---
 
 #Hướng Dẫn Cài Đặt
@@ -64,23 +69,26 @@ Tài khoản đăng nhập: - Admin: admin@hotmail.com / Admin110121255*. - Teac
 
 Chức Năng Trên Website
 
-1. Quản lý Tài khoản
+##1. Quản lý Tài khoản
 
 Danh sách tài khoản: Hiển thị danh sách tài khoản hiện có.
 Thêm tài khoản: - Nhập thông tin tài khoản (username, password, role). - Tự động lưu thông tin chi tiết vào bảng liên quan (Student/Teacher).
 Sửa tài khoản: - Cập nhật thông tin tài khoản, bao gồm avatar.
 Xóa tài khoản: - Kiểm tra liên kết với thông tin trước khi xóa.
-2. Quản lý Lớp học
+
+##2. Quản lý Lớp học
 Danh sách lớp học: Hiển thị thông tin tất cả các lớp học.
 Thêm lớp học: - Nhập thông tin (mã lớp, tên lớp, khóa học). - Kiểm tra trùng lặp mã lớp.
 Sửa lớp học: Cập nhật thông tin lớp học.
 Xóa lớp học: - Kiểm tra liên kết với sinh viên trước khi xóa.
-3. Quản lý Đồ án
+
+##3. Quản lý Đồ án
 Danh sách đồ án: Hiển thị thông tin các đồ án hiện có.
 Thêm đồ án: - Nhập thông tin đồ án (tên đồ án, loại, MSSV, giảng viên, điểm tổng). - Tự động xếp loại và trạng thái dựa trên điểm tổng.
 Sửa đồ án: Cập nhật thông tin đồ án.
 Xóa đồ án: Xóa đồ án sau khi kiểm tra liên kết.
 Tra cứu đồ án: - Tìm kiếm theo MSSV, tên đồ án, hoặc lớp học. - Xem chi tiết đầy đủ thông tin đồ án.
+
 4. Thống kê
 Loại đồ án: Pie Chart thống kê số lượng đồ án theo loại.
 Xếp loại đồ án: Bar Chart hiển thị số lượng đồ án theo rating.
